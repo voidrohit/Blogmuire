@@ -1,0 +1,14 @@
+.navBar {
+    width: 100%;
+    height: 65px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 736px) {
+    .navBar {
+        margin: 0;
+    }
+}

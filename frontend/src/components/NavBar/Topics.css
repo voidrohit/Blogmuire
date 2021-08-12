@@ -1,0 +1,22 @@
+.Topics ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Topics ul li {
+    padding: 8px 12px;
+}
+#getstart {
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: black;
+}
+
+@media only screen and (max-width: 736px) {
+    #list {
+        display: none;
+    }
+}

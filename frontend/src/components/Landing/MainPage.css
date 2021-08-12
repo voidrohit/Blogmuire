@@ -1,0 +1,37 @@
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 550px;
+    text-align: left;
+}
+.main h2{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 74px;
+}
+.main span{
+    margin: 0;
+}
+.main h3 button {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: large;   
+}
+.mainPage img{
+    height: 60vh;
+}
+
+@media only screen and (max-width: 736px) {
+    .mainPage img {
+        display: none;
+    }
+    .main h2 {
+            font-size: 60px;
+            line-height: 54px;
+    }
+}
